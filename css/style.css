@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    height: 75px;
+}
+img {
+    width: 100%;
+}
+.api-page, #json-ph-container, .random-user {
+    background-color: #cce7ff;
+}
+.comment {
+    background-color: #FFE4E1;
+}
+#loading-spinner, #not-found {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .api-page {
+        width: 30%;
+    }
+    .random-user {
+        width: 45%;
+    }
+    .input-group {
+        width: 50%;
+    }
+}
